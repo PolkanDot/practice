@@ -16,7 +16,8 @@ namespace Lab2
             List<IOperation> operations = new List<IOperation>
             {
                 new AdditionOperation(),
-                new SubstractionOperation()
+                new SubstractionOperation(),
+                new MultiplicationOperation()
             };
             ICalculator calculator = new SimpleCalculator( operations );
             int result = calculator.Calculate( args[ 0 ] );
