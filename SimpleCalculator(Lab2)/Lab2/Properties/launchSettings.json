@@ -2,7 +2,7 @@
   "profiles": {
     "Lab2": {
       "commandName": "Project",
-      "commandLineArgs": "2+2"
+      "commandLineArgs": "2 + 2"
     }
   }
 }
