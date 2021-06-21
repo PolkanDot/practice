@@ -17,7 +17,10 @@ namespace Lab2
             {
                 new AdditionOperation(),
                 new SubstractionOperation(),
-                new MultiplicationOperation()
+                new MultiplicationOperation(),
+                new ExponeniationOperation(),
+                new DivisionOperation(),
+                new RemainderOperation()
             };
             ICalculator calculator = new SimpleCalculator( operations );
             int result = calculator.Calculate( args[ 0 ] );
