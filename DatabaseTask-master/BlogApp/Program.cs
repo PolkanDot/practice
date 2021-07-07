@@ -17,7 +17,7 @@ namespace BlogApp
 
             switch (command)
             {
-                case "readorder":
+                case "readorders":
                     List<Order> orders = ReadOrders();
                     foreach (Order order in orders)
                     {
@@ -25,7 +25,7 @@ namespace BlogApp
                     }
                     break;
 
-                case "readcustomer":
+                case "readcustomers":
                     List<Customer> customers = ReadCustomers();
                     foreach (Customer customer in customers)
                     {
